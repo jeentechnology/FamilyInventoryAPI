@@ -1,0 +1,50 @@
+{
+  "name": "FamilyInventoryAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "mocha --reporter spec --compilers ts:ts-node/register 'test/**/*.test.ts'",
+    "build": "gulp scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeentechnology/FamilyInventoryAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeentechnology/FamilyInventoryAPI/issues"
+  },
+  "homepage": "https://github.com/jeentechnology/FamilyInventoryAPI#readme",
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/chai": "^4.1.4",
+    "@types/chai-http": "^3.0.4",
+    "@types/debug": "0.0.30",
+    "@types/express": "^4.16.0",
+    "@types/mocha": "^5.2.4",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^10.5.1",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "@types/documentdb": "^1.10.4",
+    "@types/dotenv": "^4.0.3",
+    "body-parser": "^1.18.3",
+    "documentdb": "^1.14.4",
+    "documentdb-typescript": "^1.0.7",
+    "dotenv": "^6.0.0",
+    "morgan": "^1.9.0"
+  }
+}
